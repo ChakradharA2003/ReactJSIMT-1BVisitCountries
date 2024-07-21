@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #161624;
+  padding: 15px 25px 15px 25px;
+}
+.country-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 50%;
+  width: 100%;
+}
+.side-heading {
+  font-size: 30px;
+  color: #ffffff;
+}
+.visited-country-list-container {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.countries-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  overflow: auto;
+  width: 100%;
+}
+.visited-countries-list {
+  list-style-type: none;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.no-countries {
+  color: #ffffff;
+  font-size: 40px;
+  align-self: center;
+}
